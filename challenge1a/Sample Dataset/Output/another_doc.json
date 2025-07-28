@@ -1,0 +1,230 @@
+{
+    "title": "DEPARTMENT OF ARTIFICIAL INTELLIGENCE AND MACHINE LEARNING",
+    "outline": [
+        {
+            "level": "H3",
+            "text": "Overview",
+            "page": 2
+        },
+        {
+            "level": "H2",
+            "text": "Decision tree",
+            "page": 6
+        },
+        {
+            "level": "H3",
+            "text": "Maximum Entropy Classifiers",
+            "page": 8
+        },
+        {
+            "level": "H3",
+            "text": "Example:",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Modeling Linguistic Patterns",
+            "page": 9
+        },
+        {
+            "level": "H2",
+            "text": "Applications of Modeling Linguistic Patterns:",
+            "page": 10
+        },
+        {
+            "level": "H2",
+            "text": "Information Extraction:",
+            "page": 12
+        },
+        {
+            "level": "H2",
+            "text": "Chunking and the methods of Developing and Evaluating Chunkers",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Chunks  are made up of words and the kinds of words are defined using the part-of-speech tags.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "One can even define a pattern or words that can’t be a part of chuck and such words are known",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "as  chinks.",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "from nltk.chunk import RegexpParser",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "# Introducing the Pattern",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "chunker = RegexpParser(r'''NP:{<DT><NN.*><.*>*<NN.*>} }<VB.*>{''')",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "chunker.parse([('the', 'DT'), ('book', 'NN'), ('has', 'VBZ'), ('many', 'JJ'), ('chapters', 'NNS')])",
+            "page": 14
+        },
+        {
+            "level": "H2",
+            "text": "Output :",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Tree('S', [Tree('NP', [('the', 'DT'), ('book', 'NN')]), ('has', 'VBZ'), Tree('NP', [('many', 'JJ'),",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "('chapters', 'NNS')])])",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "A ChunkRule class specifies what words or patterns to include and exclude in a chunk.",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "The  ChunkedCorpusReader  class works similar to the TaggedCorpusReader for getting",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "tagged tokens, plus it also provides three new methods for getting chunks.",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "An instance of  nltk.tree.Tree  represents each chunk.",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Noun phrase trees look like Tree('NP', [...]) where as Sentence level trees look like",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Tree('S', [...]).",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "A list of sentence trees, with each noun phrase as a subtree of the sentence is obtained in",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "n chunked_sents()",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "A list of noun phrase trees alongside tagged tokens of words that were not in a chunk is",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "obtained in chunked_words().",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "In order to create an NP-chunker, we will first define a chunk grammar, consisting of rules",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "that indicate how sentences should be chunked. The NP chunk should be formed whenever",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "the chunker finds an optional determiner (DT) followed by any number of adjectives (JJ) and",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "then a noun (NN). Using this grammar, we create a chunk parser , and test it on our example",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "sentences graphically.",
+            "page": 15
+        },
+        {
+            "level": "H2",
+            "text": "Example of a simple regular expression–based NP chunker.",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> sentence = [(\"the\", \"DT\"), (\"little\", \"JJ\"), (\"yellow\", \"JJ\"), , or display ... (\"dog\", \"NN\"),",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "(\"barked\", \"VBD\"), (\"at\", \"IN\"),  (\"the\", \"DT\"), (\"cat\", \"NN\")]",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> grammar = \"NP: {<DT>?<JJ>*<NN>}\"",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> cp = nltk.RegexpParser(grammar)",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> result = cp.parse(sentence)",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> print result (S  (NP the/DT little/JJ yellow/JJ dog/NN)  barked/VBD  at/IN  (NP the/DT",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": "cat/NN))",
+            "page": 16
+        },
+        {
+            "level": "H2",
+            "text": ">>> result.draw()",
+            "page": 16
+        },
+        {
+            "level": "H3",
+            "text": "Recursion in Linguistic Structure",
+            "page": 17
+        },
+        {
+            "level": "H2",
+            "text": "Building Nested Structure with Cascaded Chunkers",
+            "page": 17
+        },
+        {
+            "level": "H3",
+            "text": "Named Entity Recognition",
+            "page": 18
+        }
+    ]
+}
