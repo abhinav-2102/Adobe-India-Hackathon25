@@ -38,8 +38,11 @@ Output/ folder exists and is writable.
 ✅ Key Features
 
 Title Extraction: Automatically identifies the document title.
+
 Outline Generation: Extracts heading hierarchy (H1–H3) based on font sizes.
+
 Structured Output: Produces a clean JSON format for each PDF.
+
 Fully Containerized: Compatible with AMD64 CPUs using Docker.
 
 📤 Output Format Example
