@@ -1,5 +1,5 @@
-###Challenge 1b: Multi-Collection PDF Analysis
-##Overview
+### Challenge 1b: Multi-Collection PDF Analysis
+## Overview
 This project is an advanced PDF analysis solution designed to process multiple collections of documents. It intelligently extracts and ranks relevant content based on user-defined personas and specific tasks, making it a powerful tool for quickly finding the most important information within a large set of PDFs.
 
 The system can handle documents in various languages by automatically translating them to English before analysis. It outputs structured JSON files containing ranked sections and further analysis, which can be easily integrated into other workflows.
