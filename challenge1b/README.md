@@ -4,7 +4,8 @@ This project is an advanced PDF analysis solution designed to process multiple c
 
 The system can handle documents in various languages by automatically translating them to English before analysis. It outputs structured JSON files containing ranked sections and further analysis, which can be easily integrated into other workflows.
 
-Project Structure
+## Project Structure
+
 The project is organized to handle multiple "collections," where each collection represents a distinct use case with its own set of PDFs and analysis configuration.
 
 ```
