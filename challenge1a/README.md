@@ -1,10 +1,21 @@
-#Challenge 1a: PDF Processing Solution
+##Challenge 1a: PDF Processing Solution
 
 ## Overview
 
 This repository contains a sample solution for **Challenge 1a** of the Adobe India Hackathon 2025. The goal is to extract a hierarchical outline from a collection of PDF documents based on typographic structure (font sizes), and save the structured output as JSON files.
 
 The solution is implemented using **PyMuPDF (fitz)** for PDF parsing and includes a command-line interface. It is fully containerized using Docker for reproducibility and compatibility with the challenge constraints.
+
+## 📂 Project Structure
+
+challenge1a/
+├── Sample Dataset/
+│ ├── Output/ # Extracted JSON files
+│ └── PDFs/ # Input PDF documents
+├── Dockerfile # Docker setup
+├── main.py # Main processing script
+├── requirements.txt # Python dependencies
+└── README.md # Documentation (this file)
 
 ## Official Challenge Guidelines
 
