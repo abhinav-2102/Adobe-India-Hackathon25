@@ -1,0 +1,317 @@
+{
+  "metadata": {
+    "input_documents": [
+      "5dc6892a6e820.pdf",
+      "Chicken-curry.pdf",
+      "Dinner Ideas - Mains_1.pdf",
+      "Dinner Ideas - Mains_2.pdf",
+      "EasyChickenCurry.pdf",
+      "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "vastrecipes.pdf"
+    ],
+    "persona": "A busy working woman",
+    "job_to_be_done": "Prepare a quick dinner for family",
+    "processing_timestamp": "2025-07-28T12:26:08.359174"
+  },
+  "extracted_sections": [
+    {
+      "document": "5dc6892a6e820.pdf",
+      "section_title": "INDIAN\tDISHES\tFOR\tYOU\tTO\tTRY\tAT\tHOME.",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "section_title": "VEGETABLE\tDISHES",
+      "importance_rank": 2,
+      "page_number": 135
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "section_title": "Chicken\tTikka",
+      "importance_rank": 3,
+      "page_number": 126
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "section_title": "Butter\tChicken",
+      "importance_rank": 4,
+      "page_number": 125
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "section_title": "Spicy\tRice\tMaharashtrian\tStyle\t-\tMasala\tBhath\t(Maharashtra)",
+      "importance_rank": 5,
+      "page_number": 45
+    },
+    {
+      "document": "Chicken-curry.pdf",
+      "section_title": "CHICKEN CURRY",
+      "importance_rank": 1,
+      "page_number": 0
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Chicken Cacciatore",
+      "importance_rank": 1,
+      "page_number": 7
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 2,
+      "page_number": 10
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 3,
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Spaghetti Bolognese",
+      "importance_rank": 4,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 5,
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 1,
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 2,
+      "page_number": 9
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Ingredients:",
+      "importance_rank": 3,
+      "page_number": 11
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Grilled Salmon",
+      "importance_rank": 4,
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "section_title": "Instructions:",
+      "importance_rank": 5,
+      "page_number": 0
+    },
+    {
+      "document": "EasyChickenCurry.pdf",
+      "section_title": "Makes 8 Servings",
+      "importance_rank": 1,
+      "page_number": 0
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "section_title": "Appetizers, Snacks, & Chaat",
+      "importance_rank": 1,
+      "page_number": 10
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "section_title": "SERVING SUGGESTIONS",
+      "importance_rank": 2,
+      "page_number": 19
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "section_title": "INGREDIENTS",
+      "importance_rank": 3,
+      "page_number": 11
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "section_title": "Yogurt (Curd) Rice  ....................................................................................................... 111",
+      "importance_rank": 4,
+      "page_number": 6
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "section_title": "TO MAKE VADAS",
+      "importance_rank": 5,
+      "page_number": 14
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "section_title": "How to make potato soup:",
+      "importance_rank": 1,
+      "page_number": 540
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "section_title": "How to make paneer pudding:",
+      "importance_rank": 2,
+      "page_number": 493
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "section_title": "Paneer Rice Fingers Recipe",
+      "importance_rank": 3,
+      "page_number": 604
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "section_title": "Maharashtrian Recipes",
+      "importance_rank": 4,
+      "page_number": 245
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "section_title": "How to make paneer rice fingers:",
+      "importance_rank": 5,
+      "page_number": 605
+    }
+  ],
+  "subsection_analysis": [
+    {
+      "document": "5dc6892a6e820.pdf",
+      "refined_text": "Refined summary of section 'INDIAN\tDISHES\tFOR\tYOU\tTO\tTRY\tAT\tHOME.' on page 2.",
+      "page_number": 2
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "refined_text": "Refined summary of section 'VEGETABLE\tDISHES' on page 135.",
+      "page_number": 135
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "refined_text": "Refined summary of section 'Chicken\tTikka' on page 126.",
+      "page_number": 126
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "refined_text": "Refined summary of section 'Butter\tChicken' on page 125.",
+      "page_number": 125
+    },
+    {
+      "document": "5dc6892a6e820.pdf",
+      "refined_text": "Refined summary of section 'Spicy\tRice\tMaharashtrian\tStyle\t-\tMasala\tBhath\t(Maharashtra)' on page 45.",
+      "page_number": 45
+    },
+    {
+      "document": "Chicken-curry.pdf",
+      "refined_text": "Refined summary of section 'CHICKEN CURRY' on page 0.",
+      "page_number": 0
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Refined summary of section 'Chicken Cacciatore' on page 7.",
+      "page_number": 7
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Refined summary of section 'Ingredients:' on page 10.",
+      "page_number": 10
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Refined summary of section 'Ingredients:' on page 14.",
+      "page_number": 14
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Refined summary of section 'Spaghetti Bolognese' on page 2.",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_1.pdf",
+      "refined_text": "Refined summary of section 'Instructions:' on page 3.",
+      "page_number": 3
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Refined summary of section 'Ingredients:' on page 2.",
+      "page_number": 2
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Refined summary of section 'Ingredients:' on page 9.",
+      "page_number": 9
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Refined summary of section 'Ingredients:' on page 11.",
+      "page_number": 11
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Refined summary of section 'Grilled Salmon' on page 12.",
+      "page_number": 12
+    },
+    {
+      "document": "Dinner Ideas - Mains_2.pdf",
+      "refined_text": "Refined summary of section 'Instructions:' on page 0.",
+      "page_number": 0
+    },
+    {
+      "document": "EasyChickenCurry.pdf",
+      "refined_text": "Refined summary of section 'Makes 8 Servings' on page 0.",
+      "page_number": 0
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "refined_text": "Refined summary of section 'Appetizers, Snacks, & Chaat' on page 10.",
+      "page_number": 10
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "refined_text": "Refined summary of section 'SERVING SUGGESTIONS' on page 19.",
+      "page_number": 19
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "refined_text": "Refined summary of section 'INGREDIENTS' on page 11.",
+      "page_number": 11
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "refined_text": "Refined summary of section 'Yogurt (Curd) Rice  ....................................................................................................... 111' on page 6.",
+      "page_number": 6
+    },
+    {
+      "document": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "refined_text": "Refined summary of section 'TO MAKE VADAS' on page 14.",
+      "page_number": 14
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "refined_text": "Refined summary of section 'How to make potato soup:' on page 540.",
+      "page_number": 540
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "refined_text": "Refined summary of section 'How to make paneer pudding:' on page 493.",
+      "page_number": 493
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "refined_text": "Refined summary of section 'Paneer Rice Fingers Recipe' on page 604.",
+      "page_number": 604
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "refined_text": "Refined summary of section 'Maharashtrian Recipes' on page 245.",
+      "page_number": 245
+    },
+    {
+      "document": "vastrecipes.pdf",
+      "refined_text": "Refined summary of section 'How to make paneer rice fingers:' on page 605.",
+      "page_number": 605
+    }
+  ]
+}

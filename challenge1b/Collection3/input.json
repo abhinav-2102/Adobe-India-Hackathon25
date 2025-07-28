@@ -1,0 +1,43 @@
+{
+  "challenge_info": {
+    "challenge_id": "collection_3",
+    "test_case_name": "collection_3",
+    "description": "Collection 3"
+  },
+  "documents": [
+    {
+      "filename": "5dc6892a6e820.pdf",
+      "title": "5dc6892a6e820"
+    },
+    {
+      "filename": "Chicken-curry.pdf",
+      "title": "Chicken-curry"
+    },
+    {
+      "filename": "Dinner Ideas - Mains_1.pdf",
+      "title": "Dinner Ideas - Mains_1"
+    },
+    {
+      "filename": "Dinner Ideas - Mains_2.pdf",
+      "title": "Dinner Ideas - Mains_2"
+    },
+    {
+      "filename": "EasyChickenCurry.pdf",
+      "title": "EasyChickenCurry"
+    },
+    {
+      "filename": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample.pdf",
+      "title": "Manjulas_Kitchen_Best_of_Indian_Vegetarian_Recipes_free_sample"
+    },
+    {
+      "filename": "vastrecipes.pdf",
+      "title": "vastrecipes"
+    }
+  ],
+  "persona": {
+    "role": "A busy working woman"
+  },
+  "job_to_be_done": {
+    "task": "Prepare a quick dinner for family"
+  }
+}
