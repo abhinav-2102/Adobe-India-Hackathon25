@@ -1,0 +1,7 @@
+pdfminer.six
+sentence-transformers
+transformers
+torch
+PyPDF2 
+langdetect  
+sentencepiece 
