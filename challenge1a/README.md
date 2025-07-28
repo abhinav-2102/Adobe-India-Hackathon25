@@ -20,17 +20,16 @@ The solution is implemented using **PyMuPDF (fitz)** for PDF parsing and include
 
 ```bash
 docker build --platform linux/amd64 -t pdf-outline-extractor .
-
+```
 🚀 Run the Docker Container
-bash
-Copy
-Edit
+
+```bash
 docker run --rm \
   -v $(pwd)/Sample\ Dataset/PDFs:/app/input:ro \
   -v $(pwd)/Sample\ Dataset/Output:/app/output \
   --network none \
   pdf-outline-extractor
-
+```
 📁 Ensure:
 
 PDFs/ folder contains input .pdf files.
@@ -47,9 +46,7 @@ Fully Containerized: Compatible with AMD64 CPUs using Docker.
 
 Each output JSON file follows this schema:
 
-json
-Copy
-Edit
+```
 {
   "title": "Sample Document Title",
   "outline": [
@@ -57,12 +54,11 @@ Edit
     { "level": "H2", "text": "Background", "page": 2 }
   ]
 }
-
+```
 ⚙️ Script Usage (main.py)
-bash
-Copy
-Edit
+```
 python main.py --input "./Sample Dataset/PDFs" --output "./Sample Dataset/Output"
+```
 
 🧪 Validation Checklist
 
@@ -79,10 +75,10 @@ python main.py --input "./Sample Dataset/PDFs" --output "./Sample Dataset/Output
 
 Only one external library is required:
 PyMuPDF==1.24.1
-
+```
 Install via:
-bash
 pip install -r requirements.txt
+```
 
 📌 Notes
 
