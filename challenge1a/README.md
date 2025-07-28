@@ -8,6 +8,7 @@ The solution is implemented using **PyMuPDF (fitz)** for PDF parsing and include
 
 ## 📂 Project Structure
 
+```
 challenge1a/
 ├── Sample Dataset/
 │ ├── Output/ # Extracted JSON files
@@ -16,6 +17,7 @@ challenge1a/
 ├── main.py # Main processing script
 ├── requirements.txt # Python dependencies
 └── README.md # Documentation (this file)
+```
 
 ## Official Challenge Guidelines
 
