@@ -1,4 +1,4 @@
-##Challenge 1a: PDF Processing Solution
+## Challenge 1a: PDF Processing Solution
 
 ## Overview
 
